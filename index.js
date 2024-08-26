@@ -7,6 +7,8 @@ const PORT = process.env.PORT;
 // Get current path
 const __dirname = import.meta.dirname;
 
+// Test a comment
+
 const server = http.createServer(async (req, res) => {
   try {
     if (req.method === "GET") {
